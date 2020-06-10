@@ -1,0 +1,51 @@
+baseURL = "https://stp2.github.io/"
+title = "Dvojka Teplice"
+languageCode = "cs"
+defaultContentLanguage = "cs"
+theme = "mainroad"
+paginate = "8"
+enableRobotsTXT = true
+summaryLength = "50"
+
+[Author]
+    name = "Prokop Parůžek"
+
+[Params]
+    dateformat = "2.1. 2006"
+	authorbox = false
+	pager = true
+    post_meta = ["author", "date", "categories"]
+    mainSections = ["akce", "oznameni"]
+
+[Params.logo]
+    image = "img/favicon.png"
+
+[Params.sidebar]
+    home = "right"
+    list = "right"
+    single = "right"
+    widgets = ["search", "social", "categories", "recent"]
+
+[Params.widgets]
+    recent_num = 5
+    tags_counter = false
+
+[Params.widgets.social]
+    github = "stp2"
+    instagram = "horal21.official"
+
+[[Params.widgets.social.custom]]
+    title = "YouTube"
+    url = "https://www.youtube.com/user/Horalove21"
+	#icon = "youtube.svg"
+
+[[menu.main]]
+    #identifier = "akce"
+    name = "Akce"
+    url = "/akce/"
+
+[[menu.main]]
+    #identifier = "oddily"
+    name = "Oddíly"
+    url = "/oddily/"
+
