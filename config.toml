@@ -19,6 +19,7 @@ summaryLength = "50"
 
 [Params.logo]
     image = "img/favicon.png"
+    title = "Dvojka Teplice"
 
 [Params.sidebar]
     home = "right"
