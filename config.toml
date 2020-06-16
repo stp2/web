@@ -34,11 +34,13 @@ summaryLength = "50"
 [Params.widgets.social]
     github = "stp2"
     instagram = "horal21.official"
+    youtube = "Horalove21"
+    
 
-[[Params.widgets.social.custom]]
-    title = "YouTube"
-    url = "https://www.youtube.com/user/Horalove21"
-	#icon = "youtube.svg"
+#[[Params.widgets.social.custom]]
+#    title = "YouTube"
+#    url = "https://www.youtube.com/user/Horalove21"
+#	icon = "youtube.svg"
 
 [[menu.main]]
     #identifier = "akce"
